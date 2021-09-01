@@ -47,5 +47,9 @@ Uma ingestão só poderá ser iniciada caso a ultima tenha sido concluída, caso
 O processo de ingestão é bem simples. Basta copiar o arquivo a ser ingerido para dentro do diretório configurado no processor GetFile no NiFi.
 O processo irá iniciar automaticamente, excluindo o arquivo do diretório para não haver ingestão duplicada.
 
+**Ponto de atenção**
+
+O direcionamento do fluxo para correta ingestão do arquivo na tabela é definido pelo nome do arquivo, portanto, o arquivo deverá ter o nome da tabela.
+
 # Análise de dados
 Por fim, existe um ultimo [script](https://github.com/gaalmeidasjc/rox/blob/main/An%C3%A1lise%20de%20dados.sql) referente as análises de dados solicitadas no desafio. As cinco análises propostas estão no mesmo script, sinalizado pelos números.
