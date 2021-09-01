@@ -1,10 +1,12 @@
 # Desafio ROX
 
+Este repositório tem como objetivo armazenar a resolução do desafio proposto pela ROX.
+
 **Index**
 
-[TOCM]
-
-[TOC]
+1. [NiFi](#nifi)
+2. [Base de dados](#base-de-dados)
+3. [Ingestão](#ingestão)
 
 # NiFi
 A ingestão foi criada atravéz do NiFi. Para utiliza-la basta importar o template [Rox.xml](https://github.com/gaalmeidasjc/rox/blob/main/Rox.xml "Template Rox.xml") no NiFi e realizar os seguintes passos para configuração.
@@ -43,3 +45,6 @@ Uma ingestão só poderá ser iniciada caso a ultima tenha sido concluída, caso
 
 O processo de ingestão é bem simples. Basta copiar o arquivo a ser ingerido para dentro do diretório configurado no processor GetFile no NiFi.
 O processo irá iniciar automaticamente, excluindo o arquivo do diretório para não haver ingestão duplicada.
+
+# Análise de dados
+Por fim, existe um ultimo [script](https://github.com/gaalmeidasjc/rox/blob/main/An%C3%A1lise%20de%20dados.sql) referente as análises de dados solicitadas no desafio. As cinco análises propostas estão no mesmo script, sinalizado pelos números.
