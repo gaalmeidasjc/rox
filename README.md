@@ -7,6 +7,7 @@ Este repositório tem como objetivo armazenar a resolução do desafio proposto 
 1. [NiFi](#nifi)
 2. [Base de dados](#base-de-dados)
 3. [Ingestão](#ingestão)
+4. [Análise de dados](#análise-de-dados)
 
 # NiFi
 A ingestão foi criada atravéz do NiFi. Para utiliza-la basta importar o template [Rox.xml](https://github.com/gaalmeidasjc/rox/blob/main/Rox.xml "Template Rox.xml") no NiFi e realizar os seguintes passos para configuração.
